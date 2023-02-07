@@ -1,0 +1,23 @@
+  226  gh repo create 'alx-zero_day' --public -d "I'm now a ALX Student, this is my first repository as a full-stack engineer"
+  228  git init
+  230  git remote add origin https://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@github.com/oforigyimah/alx-zero_day.git
+  231  echo 'My first readme' > README.md
+  232  git config --global user.name 'Ofori Gyimah'
+  233  git config --global user.email 'rabbioforigyimah@gmail.com'
+  235  git commit -m 'My first commit' && git push -u origin master
+  237  git add .
+  238  git commit -m 'My first commit' && git push -u origin master
+  241  mkdir 0x03-git
+  242  cd 0x03-git/
+  243  echo 'Alx task' > README.md
+  246  mkdir c js bash
+  247  touch c/c_is_fun.c
+  248  touch js/main.js
+  249  touch js/index.js
+  250  vim bash/alx
+  251  cd ..
+  252  git commit -m 'Starting to code today, so cool'
+  253  git add .
+  254  git commit -m 'Starting to code today, so cool'
+  255  git push
+  257  vim README.md 
